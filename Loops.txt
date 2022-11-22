@@ -11,7 +11,8 @@ FOR LOOPS
   for item in ['Him','Her','His']:
 
   for item in range(10)
-
+  
+ Range built in function in python
 
   Nested LOOPS
   for x in range(4):

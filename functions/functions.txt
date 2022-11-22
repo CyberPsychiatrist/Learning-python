@@ -1,0 +1,25 @@
+ Functions help in breaking up code into smaller reusable chunks
+def greet_user():
+    print("Hi there")
+    print("Welcome Aboard")
+
+
+print("Start")
+greet_user()
+print("Finish")
+
+
+parameters - Placeholders for receiving information
+
+arguments - Actual pieces of information supplied to the function
+
+keyword argument =  when an  argument has a parameter name followed by its value.
+
+
+RETURN statements
+def square(number):
+    return number *number
+
+result = square(3)
+print(result)
+

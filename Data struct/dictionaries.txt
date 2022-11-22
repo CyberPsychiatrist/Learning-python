@@ -1,0 +1,12 @@
+Used to store key-Value Pairs
+Each Key should be unique
+
+customer = {
+    "name":"John Smith",
+    "age": 30,
+    "is_verified": True
+}
+
+print(customer["name"])
+
+print(customer.get("birth date"))

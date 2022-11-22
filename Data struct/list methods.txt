@@ -1,0 +1,32 @@
+numbers = [5, 2, 1, 5, 7, 4]
+
+adding a new item
+numbers.append(20)
+
+inserting into a list
+numbers.insert(0, 15)          #inserting 15 index 0
+
+removing an item
+numbers.remove(5)
+
+emptying the list
+numbers.clear()
+
+removing the last item in the list
+numbers.pop()
+
+checking for existence of an element 
+print(numbers.index(5))
+OR
+print(50 in numbers)   returns a boolean true or false
+
+Counting occurrences of an item
+print(numbers.count(5))
+
+Sorting through a list
+numbers.sort()          sort in ascending  order
+numbers.reverse()        sort in descending order
+print(numbers)
+
+copying a list
+numbers2 = numbers.copy()
